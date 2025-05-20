@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<a href="{% url 'menu' %}" 
+   class="inline-flex items-center px-4 py-2 bg-white border border-gray-300 rounded-lg shadow-sm text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-all duration-200 transform hover:-translate-x-1">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+        <path fill-rule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clip-rule="evenodd" />
+    </svg>
+    Вернуться назад
+</a>
+
+<div class="max-w-4xl mx-auto px-4 py-8">
+    <h1 class="text-2xl font-bold mb-6">Мои приглашения</h1>
+    
+    {% if invitations %}
+        <div class="space-y-4">
+            {% for invitation in invitations %}
+                <div class="border rounded-lg p-4 shadow-sm">
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <h3 class="font-medium text-lg">
+                                Приглашение в проект: 
+                                <a href="{{ invitation.project.get_absolute_url }}" 
+                                   class="text-blue-600 hover:underline">
+                                    {{ invitation.project.name }}
+                                </a>
+                            </h3>
+                            <p class="text-gray-600 mt-1">
+                                От: {{ invitation.inviter.username }} (роль: {{ invitation.get_role_display }})
+                            </p>
+                            <p class="text-sm text-gray-500 mt-2">
+                                {{ invitation.created_at|date:"d.m.Y H:i" }}
+                            </p>
+                        </div>
+                        <div class="flex space-x-2">
+                            <form method="post" action="{% url 'invitations_list' %}">
+                                {% csrf_token %}
+                                <input type="hidden" name="invitation_id" value="{{ invitation.id }}">
+                                <button type="submit" name="action" value="accept" 
+                                        class="px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600">
+                                    Принять
+                                </button>
+                            </form>
+                            <form method="post" action="{% url 'invitations_list' %}">
+                                {% csrf_token %}
+                                <input type="hidden" name="invitation_id" value="{{ invitation.id }}">
+                                <button type="submit" name="action" value="reject" 
+                                        class="px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600">
+                                    Отклонить
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    {% else %}
+        <p class="text-gray-500">У вас нет активных приглашений</p>
+    {% endif %}
+</div>
+{% endblock %}

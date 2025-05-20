@@ -1,0 +1,86 @@
+Metadata-Version: 2.2
+Name: django-tailwind-4
+Version: 0.1.4
+Summary: Tailwind 4 CSS Framework for Django projects
+Author-email: Ryan Sevelj <rsevs3@gmail.com>, Tim Kamanin <tim@timonweb.com>
+Maintainer-email: Ryan Sevelj <rsevs3@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/rsevs3/django-tailwind-4
+Project-URL: Documentation, https://django-tailwind-4.readthedocs.io
+Project-URL: Tracker, https://github.com/rsevs3/django-tailwind-4/issues
+Project-URL: Changelog, https://github.com/rsevs3/django-tailwind-4/releases
+Keywords: django,tailwind,css
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Requires-Python: >=3.10.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: django>=3.2.14
+Provides-Extra: reload
+Requires-Dist: django-browser-reload>=1.17.0; extra == "reload"
+Provides-Extra: dev
+Requires-Dist: pytest>=8.3.4; extra == "dev"
+Requires-Dist: pytest-django>=4.9.0; extra == "dev"
+Requires-Dist: tox>=4.24.1; extra == "dev"
+Requires-Dist: pre-commit>=4.1.0; extra == "dev"
+Requires-Dist: isort>=5.13.2; extra == "dev"
+Requires-Dist: flake8>=7.1.1; extra == "dev"
+Requires-Dist: black>=24.10.0; extra == "dev"
+Requires-Dist: Sphinx>=8.1.3; extra == "dev"
+Requires-Dist: recommonmark>=0.7.1; extra == "dev"
+Requires-Dist: sphinx-rtd-theme>=3.0.2; extra == "dev"
+
+# Tailwind CSS integration for Django a.k.a. Django + Tailwind = 💚
+
+>**Note:** This is a maintained fork of Tim Kamanin's original django-tailwind project. The original project is no longer maintained. This fork updates the project to work with the latest version of Tailwind CSS while preserving the original functionality.
+
+![Django Tailwind Demo](https://raw.githubusercontent.com/timonweb/django-tailwind/master/docs/django-tailwind-demo-800.gif)
+
+## Goal
+This project aims to provide a comfortable way of using the *Tailwind CSS* framework within a Django project.
+
+## Features
+* An opinionated *Tailwind CSS* setup that makes your life easier;
+* Hot reloading of CSS, configuration files, and *Django* templates. No more manual page refreshes!
+* Out of the box support for CSS imports, SASS-like variables, and nesting;
+* Includes official *Tailwind CSS* plugins like *typography*, *form*, *line-clamp*, and *aspect-ratio*;
+* Supports the latest *Tailwind CSS* `v4.x`;
+
+> [For instructions on upgrading from `v2` to `v3`, see this post on Tim Kamanin's blog](https://timonweb.com/django/django-tailwind-with-support-for-the-latest-tailwind-css-v3-is-out/).
+
+## Requirements
+Python 3.10 or newer with Django >= 3.2 or newer.
+
+## Documentation
+The full documentation is at https://django-tailwind-4.readthedocs.io
+
+## Installation
+Via PIP:
+```bash
+pip install django-tailwind-4
+```
+
+[RECOMMENDED IN DEV] If you want to use automatic page reloads during development use the `[reload]` extras, which installs the `django-browser-reload` package in addition:
+
+ ```bash
+ pip install 'django-tailwind-4[reload]'
+ ```
+
+Check docs for the [Installation](https://django-tailwind-4.readthedocs.io/en/latest/installation.html) instructions.
+
+## Bugs and suggestions
+
+Please see [CONTRIBUTING](CONTRIBUTING.md).
+
+2019 - 2023 (c) [Tim Kamanin - A Full Stack Django Developer](https://timonweb.com)
+
+2024 - present (c) [Ryan Sevelj] - Fork Maintainer

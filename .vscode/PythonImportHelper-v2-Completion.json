@@ -1,0 +1,1335 @@
+[
+    {
+        "label": "django.contrib.auth.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "AbstractUser",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "django.contrib.auth.validators",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.contrib.auth.validators",
+        "description": "django.contrib.auth.validators",
+        "detail": "django.contrib.auth.validators",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "django.utils.timezone",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.utils.timezone",
+        "description": "django.utils.timezone",
+        "detail": "django.utils.timezone",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "django.db",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db",
+        "description": "django.db",
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "TeamRunApp.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "TeamRunApp.models",
+        "description": "TeamRunApp.models",
+        "detail": "TeamRunApp.models",
+        "documentation": {}
+    },
+    {
+        "label": "CustomUser",
+        "importPath": "TeamRunApp.models",
+        "description": "TeamRunApp.models",
+        "isExtraImport": true,
+        "detail": "TeamRunApp.models",
+        "documentation": {}
+    },
+    {
+        "label": "Task",
+        "importPath": "TeamRunApp.models",
+        "description": "TeamRunApp.models",
+        "isExtraImport": true,
+        "detail": "TeamRunApp.models",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "TeamRunApp.models",
+        "description": "TeamRunApp.models",
+        "isExtraImport": true,
+        "detail": "TeamRunApp.models",
+        "documentation": {}
+    },
+    {
+        "label": "Project",
+        "importPath": "TeamRunApp.models",
+        "description": "TeamRunApp.models",
+        "isExtraImport": true,
+        "detail": "TeamRunApp.models",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "AuthenticationForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreationForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "reverse",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "reverse_lazy",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "format_html",
+        "importPath": "django.utils.html",
+        "description": "django.utils.html",
+        "isExtraImport": true,
+        "detail": "django.utils.html",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "JsonResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "get_object_or_404",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "get_object_or_404",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "authenticate",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_model",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "View",
+        "importPath": "django.views",
+        "description": "django.views",
+        "isExtraImport": true,
+        "detail": "django.views",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "PermissionDenied",
+        "importPath": "django.core.exceptions",
+        "description": "django.core.exceptions",
+        "isExtraImport": true,
+        "detail": "django.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "LoginRequiredMixin",
+        "importPath": "django.contrib.auth.mixins",
+        "description": "django.contrib.auth.mixins",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.mixins",
+        "documentation": {}
+    },
+    {
+        "label": "TemplateView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "DetailView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "CreateView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "ListView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "DeleteView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "TeamRunProject.TeamRunApp.migrations.0001_initial",
+        "description": "TeamRunProject.TeamRunApp.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('auth', '0012_alter_user_first_name_max_length'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Project',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "TeamRunProject.TeamRunApp.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "TeamRunProject.TeamRunApp.migrations.0002_alter_list_options_remove_task_project_task_list",
+        "description": "TeamRunProject.TeamRunApp.migrations.0002_alter_list_options_remove_task_project_task_list",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('TeamRunApp', '0001_initial'),\n    ]\n    operations = [\n        migrations.AlterModelOptions(\n            name='list',\n            options={'ordering': ['order']},\n        ),\n        migrations.RemoveField(",
+        "detail": "TeamRunProject.TeamRunApp.migrations.0002_alter_list_options_remove_task_project_task_list",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "TeamRunProject.TeamRunApp.migrations.0003_task_due_date",
+        "description": "TeamRunProject.TeamRunApp.migrations.0003_task_due_date",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('TeamRunApp', '0002_alter_list_options_remove_task_project_task_list'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='task',\n            name='due_date',\n            field=models.DateTimeField(blank=True, null=True),\n        ),",
+        "detail": "TeamRunProject.TeamRunApp.migrations.0003_task_due_date",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "TeamRunProject.TeamRunApp.migrations.0004_alter_task_assigned_to",
+        "description": "TeamRunProject.TeamRunApp.migrations.0004_alter_task_assigned_to",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('TeamRunApp', '0003_task_due_date'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='task',\n            name='assigned_to',\n            field=models.ForeignKey(null=True, on_delete=django.db.models.deletion.CASCADE, related_name='tasks', to=settings.AUTH_USER_MODEL),\n        ),",
+        "detail": "TeamRunProject.TeamRunApp.migrations.0004_alter_task_assigned_to",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "TeamRunProject.TeamRunApp.migrations.0005_projectmembership",
+        "description": "TeamRunProject.TeamRunApp.migrations.0005_projectmembership",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('TeamRunApp', '0004_alter_task_assigned_to'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='ProjectMembership',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('joined_at', models.DateTimeField(auto_now_add=True)),",
+        "detail": "TeamRunProject.TeamRunApp.migrations.0005_projectmembership",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "TeamRunProject.TeamRunApp.migrations.0006_projectmembership_role",
+        "description": "TeamRunProject.TeamRunApp.migrations.0006_projectmembership_role",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('TeamRunApp', '0005_projectmembership'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='projectmembership',\n            name='role',\n            field=models.CharField(choices=[('admin', 'Administrator'), ('member', 'Member')], default='member', max_length=20),\n        ),",
+        "detail": "TeamRunProject.TeamRunApp.migrations.0006_projectmembership_role",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "TeamRunProject.TeamRunApp.migrations.0007_alter_projectmembership_role",
+        "description": "TeamRunProject.TeamRunApp.migrations.0007_alter_projectmembership_role",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('TeamRunApp', '0006_projectmembership_role'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='projectmembership',\n            name='role',\n            field=models.CharField(choices=[('manager', 'Manager'), ('member', 'Member')], default='member', max_length=20),\n        ),",
+        "detail": "TeamRunProject.TeamRunApp.migrations.0007_alter_projectmembership_role",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "TeamRunProject.TeamRunApp.migrations.0008_projectinvitation",
+        "description": "TeamRunProject.TeamRunApp.migrations.0008_projectinvitation",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('TeamRunApp', '0007_alter_projectmembership_role'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='ProjectInvitation',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('role', models.CharField(choices=[('manager', 'Manager'), ('member', 'Member')], default='member', max_length=20)),",
+        "detail": "TeamRunProject.TeamRunApp.migrations.0008_projectinvitation",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "TeamRunProject.TeamRunApp.migrations.0009_customuser_avatar",
+        "description": "TeamRunProject.TeamRunApp.migrations.0009_customuser_avatar",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('TeamRunApp', '0008_projectinvitation'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='customuser',\n            name='avatar',\n            field=models.ImageField(blank=True, null=True, upload_to=TeamRunApp.models.user_avatar_path),\n        ),",
+        "detail": "TeamRunProject.TeamRunApp.migrations.0009_customuser_avatar",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "TeamRunProject.TeamRunApp.migrations.0010_remove_task_assigned_to_task_assigned_to",
+        "description": "TeamRunProject.TeamRunApp.migrations.0010_remove_task_assigned_to_task_assigned_to",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('TeamRunApp', '0009_customuser_avatar'),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='task',\n            name='assigned_to',\n        ),\n        migrations.AddField(",
+        "detail": "TeamRunProject.TeamRunApp.migrations.0010_remove_task_assigned_to_task_assigned_to",
+        "documentation": {}
+    },
+    {
+        "label": "TeamrunappConfig",
+        "kind": 6,
+        "importPath": "TeamRunProject.TeamRunApp.apps",
+        "description": "TeamRunProject.TeamRunApp.apps",
+        "peekOfCode": "class TeamrunappConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'TeamRunApp'",
+        "detail": "TeamRunProject.TeamRunApp.apps",
+        "documentation": {}
+    },
+    {
+        "label": "BaseForm",
+        "kind": 6,
+        "importPath": "TeamRunProject.TeamRunApp.forms",
+        "description": "TeamRunProject.TeamRunApp.forms",
+        "peekOfCode": "class BaseForm:\n    def __init__(self, *args, **kwargs):\n        super().__init__(*args, **kwargs)\n        for field_name, field in self.fields.items():\n            field.widget.attrs.update({\n                'class': 'w-full px-4 py-2 mt-2 text-gray-700 bg-white border rounded-lg focus:border-green-500 focus:outline-none focus:ring-2 focus:ring-green-300 transition-colors duration-200'\n            })\n            if isinstance(field.widget, forms.PasswordInput):\n                field.widget.attrs['placeholder'] = '••••••••'\nclass LoginForm(BaseForm, AuthenticationForm):",
+        "detail": "TeamRunProject.TeamRunApp.forms",
+        "documentation": {}
+    },
+    {
+        "label": "LoginForm",
+        "kind": 6,
+        "importPath": "TeamRunProject.TeamRunApp.forms",
+        "description": "TeamRunProject.TeamRunApp.forms",
+        "peekOfCode": "class LoginForm(BaseForm, AuthenticationForm):\n    username = forms.CharField(\n        widget=forms.TextInput(attrs={\n            'placeholder': 'Ваш логин'\n        })\n    )\n    password = forms.CharField(\n        widget=forms.PasswordInput(attrs={\n            'placeholder': 'Пароль'\n        })",
+        "detail": "TeamRunProject.TeamRunApp.forms",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterForm",
+        "kind": 6,
+        "importPath": "TeamRunProject.TeamRunApp.forms",
+        "description": "TeamRunProject.TeamRunApp.forms",
+        "peekOfCode": "class RegisterForm(BaseForm, UserCreationForm):\n    class Meta:\n        model = CustomUser\n        fields = ('username', 'password1', 'password2', 'email')\n    username = forms.CharField(\n        widget=forms.TextInput(attrs={\n            'placeholder': 'Придумайте логин'\n        })\n    )\n    email = forms.EmailField(",
+        "detail": "TeamRunProject.TeamRunApp.forms",
+        "documentation": {}
+    },
+    {
+        "label": "TaskListForm",
+        "kind": 6,
+        "importPath": "TeamRunProject.TeamRunApp.forms",
+        "description": "TeamRunProject.TeamRunApp.forms",
+        "peekOfCode": "class TaskListForm(forms.ModelForm):\n    class Meta:\n        model = List\n        fields = ['name']\n        widgets = {\n            'name': forms.TextInput(attrs={\n                'class': 'w-full px-3 py-2 border rounded-lg',\n                'placeholder': 'Название списка'\n            })\n        }",
+        "detail": "TeamRunProject.TeamRunApp.forms",
+        "documentation": {}
+    },
+    {
+        "label": "TaskForm",
+        "kind": 6,
+        "importPath": "TeamRunProject.TeamRunApp.forms",
+        "description": "TeamRunProject.TeamRunApp.forms",
+        "peekOfCode": "class TaskForm(forms.ModelForm):\n    class Meta:\n        model = Task\n        fields = ['title', 'description', 'due_date']\n        widgets = {\n            'title': forms.TextInput(attrs={\n                'class': 'w-full px-3 py-2 border rounded-lg',\n                'placeholder': 'Название задачи'\n            }),\n            'description': forms.Textarea(attrs={",
+        "detail": "TeamRunProject.TeamRunApp.forms",
+        "documentation": {}
+    },
+    {
+        "label": "CreateProjectForm",
+        "kind": 6,
+        "importPath": "TeamRunProject.TeamRunApp.forms",
+        "description": "TeamRunProject.TeamRunApp.forms",
+        "peekOfCode": "class CreateProjectForm(forms.ModelForm):\n    class Meta:\n        model = Project\n        fields = ['name', 'description']\n        widgets = {\n            'name': forms.TextInput(attrs={\n                'class': 'w-full px-3 py-2 border rounded-lg',\n                'placeholder': 'Название проекта'\n            }),\n            'description': forms.TextInput(attrs={",
+        "detail": "TeamRunProject.TeamRunApp.forms",
+        "documentation": {}
+    },
+    {
+        "label": "ProfileUpdateForm",
+        "kind": 6,
+        "importPath": "TeamRunProject.TeamRunApp.forms",
+        "description": "TeamRunProject.TeamRunApp.forms",
+        "peekOfCode": "class ProfileUpdateForm(forms.ModelForm):\n    class Meta:\n        model = CustomUser\n        fields = ['first_name', 'last_name', 'avatar']\n    def __init__(self, *args, **kwargs):\n        super().__init__(*args, **kwargs)\n        self.fields['first_name'].widget.attrs.update({\n            'class': 'mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500'\n        })\n        self.fields['last_name'].widget.attrs.update({",
+        "detail": "TeamRunProject.TeamRunApp.forms",
+        "documentation": {}
+    },
+    {
+        "label": "CustomUser",
+        "kind": 6,
+        "importPath": "TeamRunProject.TeamRunApp.models",
+        "description": "TeamRunProject.TeamRunApp.models",
+        "peekOfCode": "class CustomUser(AbstractUser):\n    role = models.CharField(max_length=20, choices=[('manager', 'Manager'), ('developer', 'Developer')])\n    avatar = models.ImageField(upload_to=user_avatar_path, blank=True, null=True)\n    def get_avatar(self):\n        if self.avatar and hasattr(self.avatar, 'url'):\n            return format_html('<img src=\"{}\" alt=\"User avatar\" class=\"h-32 w-32 rounded-full object-cover border-4 border-blue-100\">', self.avatar.url)\n        else:\n            # Возвращаем букву никнейма в виде HTML\n            first_letter = self.username[0].upper()  # Получаем первую букву никнейма\n            return format_html('<div class=\"h-32 w-32 rounded-full flex items-center justify-center border-4 border-blue-100 text-2xl\">{}</div>', first_letter)",
+        "detail": "TeamRunProject.TeamRunApp.models",
+        "documentation": {}
+    },
+    {
+        "label": "Project",
+        "kind": 6,
+        "importPath": "TeamRunProject.TeamRunApp.models",
+        "description": "TeamRunProject.TeamRunApp.models",
+        "peekOfCode": "class Project(models.Model):\n    name = models.CharField(max_length=100)\n    description = models.TextField()\n    owner = models.ForeignKey(CustomUser, on_delete=models.CASCADE, default=1)\n    created_at = models.DateTimeField(auto_now_add=True)\n    updated_at = models.DateTimeField(auto_now=True)\n    def __str__(self):\n        return self.name\n    def get_absolute_url(self):\n        return reverse('project_detail', kwargs={'pk': self.pk})",
+        "detail": "TeamRunProject.TeamRunApp.models",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "kind": 6,
+        "importPath": "TeamRunProject.TeamRunApp.models",
+        "description": "TeamRunProject.TeamRunApp.models",
+        "peekOfCode": "class List(models.Model):\n    name = models.CharField(max_length=100)\n    project = models.ForeignKey(Project, on_delete=models.CASCADE, related_name='lists')\n    order = models.IntegerField(default=0)\n    class Meta:\n        ordering = ['order']\n    def __str__(self):\n        return f\"{self.project.name} - {self.name}\"\nclass Task(models.Model):\n    title = models.CharField(max_length=100)",
+        "detail": "TeamRunProject.TeamRunApp.models",
+        "documentation": {}
+    },
+    {
+        "label": "Task",
+        "kind": 6,
+        "importPath": "TeamRunProject.TeamRunApp.models",
+        "description": "TeamRunProject.TeamRunApp.models",
+        "peekOfCode": "class Task(models.Model):\n    title = models.CharField(max_length=100)\n    description = models.TextField()\n    list = models.ForeignKey(List, related_name='tasks', on_delete=models.CASCADE, null=True)\n    assigned_to = models.ManyToManyField(CustomUser, related_name='tasks')\n    completed = models.BooleanField(default=False)\n    created_at = models.DateTimeField(auto_now_add=True)\n    updated_at = models.DateTimeField(auto_now=True)\n    due_date = models.DateTimeField(null=True, blank=True)\n    def __str__(self):",
+        "detail": "TeamRunProject.TeamRunApp.models",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectMembership",
+        "kind": 6,
+        "importPath": "TeamRunProject.TeamRunApp.models",
+        "description": "TeamRunProject.TeamRunApp.models",
+        "peekOfCode": "class ProjectMembership(models.Model):\n    ROLE_CHOICES = [\n        ('manager', 'Manager'),\n        ('member', 'Member'),\n    ]\n    project = models.ForeignKey(Project, on_delete=models.CASCADE, related_name='memberships')\n    user = models.ForeignKey(CustomUser, on_delete=models.CASCADE, related_name='project_memberships')\n    role = models.CharField(max_length=20, choices=ROLE_CHOICES, default='member')\n    joined_at = models.DateTimeField(auto_now_add=True)\n    class Meta:",
+        "detail": "TeamRunProject.TeamRunApp.models",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectInvitation",
+        "kind": 6,
+        "importPath": "TeamRunProject.TeamRunApp.models",
+        "description": "TeamRunProject.TeamRunApp.models",
+        "peekOfCode": "class ProjectInvitation(models.Model):\n    STATUS_CHOICES = [\n        ('pending', 'Ожидает подтверждения'),\n        ('accepted', 'Принято'),\n        ('rejected', 'Отклонено'),\n    ]\n    project = models.ForeignKey(Project, on_delete=models.CASCADE, related_name='invitations')\n    user = models.ForeignKey(CustomUser, on_delete=models.CASCADE, related_name='project_invitations')\n    inviter = models.ForeignKey(CustomUser, on_delete=models.CASCADE, related_name='sent_invitations')\n    role = models.CharField(max_length=20, choices=ProjectMembership.ROLE_CHOICES, default='member')",
+        "detail": "TeamRunProject.TeamRunApp.models",
+        "documentation": {}
+    },
+    {
+        "label": "user_avatar_path",
+        "kind": 2,
+        "importPath": "TeamRunProject.TeamRunApp.models",
+        "description": "TeamRunProject.TeamRunApp.models",
+        "peekOfCode": "def user_avatar_path(instance, filename):\n    # Файл будет загружен в MEDIA_ROOT/user_<id>/avatar/<filename>\n    return f'user_{instance.id}/avatar/{filename}'\nclass CustomUser(AbstractUser):\n    role = models.CharField(max_length=20, choices=[('manager', 'Manager'), ('developer', 'Developer')])\n    avatar = models.ImageField(upload_to=user_avatar_path, blank=True, null=True)\n    def get_avatar(self):\n        if self.avatar and hasattr(self.avatar, 'url'):\n            return format_html('<img src=\"{}\" alt=\"User avatar\" class=\"h-32 w-32 rounded-full object-cover border-4 border-blue-100\">', self.avatar.url)\n        else:",
+        "detail": "TeamRunProject.TeamRunApp.models",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "TeamRunProject.TeamRunApp.urls",
+        "description": "TeamRunProject.TeamRunApp.urls",
+        "peekOfCode": "urlpatterns = [\n path('index/', views.index, name='index'),\n path('register/', views.register_view, name='register'),\n path('', views.login_view, name='login'),\n path('menu/', views.menu, name='menu'),\n # страницы\n path('menu/create/', ProjectCreateView.as_view(), name='project_create'),\n path(\"menu/invites\", views.InvitationsView.as_view(), name=\"invites\"),\n path(\"menu/my-projects\", views.MyProjectsView.as_view(), name=\"my-projects\"),\n path('project/<int:pk>/', views.ProjectDetailView.as_view(), name='project_detail'),",
+        "detail": "TeamRunProject.TeamRunApp.urls",
+        "documentation": {}
+    },
+    {
+        "label": "CreateProjectView",
+        "kind": 6,
+        "importPath": "TeamRunProject.TeamRunApp.views",
+        "description": "TeamRunProject.TeamRunApp.views",
+        "peekOfCode": "class CreateProjectView(TemplateView):\n    template_name = \"create_project.html\"\nclass InvitationsView(TemplateView):\n    template_name = \"invite_to_project.html\"\nclass MyProjectsView(ListView, LoginRequiredMixin):\n    model = Project\n    template_name = 'my_projects.html'\n    context_object_name = 'project'\n    def get_queryset(self):\n        # Получаем ID проектов, где пользователь является участником",
+        "detail": "TeamRunProject.TeamRunApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "InvitationsView",
+        "kind": 6,
+        "importPath": "TeamRunProject.TeamRunApp.views",
+        "description": "TeamRunProject.TeamRunApp.views",
+        "peekOfCode": "class InvitationsView(TemplateView):\n    template_name = \"invite_to_project.html\"\nclass MyProjectsView(ListView, LoginRequiredMixin):\n    model = Project\n    template_name = 'my_projects.html'\n    context_object_name = 'project'\n    def get_queryset(self):\n        # Получаем ID проектов, где пользователь является участником\n        user_memberships = ProjectMembership.objects.filter(user=self.request.user)\n        project_ids = user_memberships.values_list('project_id', flat=True)",
+        "detail": "TeamRunProject.TeamRunApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "MyProjectsView",
+        "kind": 6,
+        "importPath": "TeamRunProject.TeamRunApp.views",
+        "description": "TeamRunProject.TeamRunApp.views",
+        "peekOfCode": "class MyProjectsView(ListView, LoginRequiredMixin):\n    model = Project\n    template_name = 'my_projects.html'\n    context_object_name = 'project'\n    def get_queryset(self):\n        # Получаем ID проектов, где пользователь является участником\n        user_memberships = ProjectMembership.objects.filter(user=self.request.user)\n        project_ids = user_memberships.values_list('project_id', flat=True)\n        # Возвращаем только проекты, в которых пользователь состоит\n        return Project.objects.filter(id__in=project_ids)",
+        "detail": "TeamRunProject.TeamRunApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectDetailView",
+        "kind": 6,
+        "importPath": "TeamRunProject.TeamRunApp.views",
+        "description": "TeamRunProject.TeamRunApp.views",
+        "peekOfCode": "class ProjectDetailView(DetailView):\n    model = Project\n    template_name = 'index.html'\n    context_object_name = 'project'\nclass TaskListCreateView(CreateView):\n    model = List\n    form_class = TaskListForm\n    template_name = 'add_task_list.html'\n    def form_valid(self, form):\n        form.instance.project_id = self.kwargs['project_id']",
+        "detail": "TeamRunProject.TeamRunApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "TaskListCreateView",
+        "kind": 6,
+        "importPath": "TeamRunProject.TeamRunApp.views",
+        "description": "TeamRunProject.TeamRunApp.views",
+        "peekOfCode": "class TaskListCreateView(CreateView):\n    model = List\n    form_class = TaskListForm\n    template_name = 'add_task_list.html'\n    def form_valid(self, form):\n        form.instance.project_id = self.kwargs['project_id']\n        return super().form_valid(form)\n    def get_success_url(self):\n        return reverse_lazy('project_detail', kwargs={'pk': self.kwargs['project_id']})\nclass TaskCreateView(CreateView):",
+        "detail": "TeamRunProject.TeamRunApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "TaskCreateView",
+        "kind": 6,
+        "importPath": "TeamRunProject.TeamRunApp.views",
+        "description": "TeamRunProject.TeamRunApp.views",
+        "peekOfCode": "class TaskCreateView(CreateView):\n    model = Task\n    form_class = TaskForm\n    template_name = 'add_task.html'\n    def form_valid(self, form):\n        form.instance.list_id = self.kwargs['list_id']\n        return super().form_valid(form)\n    def get_success_url(self):\n        return reverse_lazy('project_detail', kwargs={'pk': self.kwargs['project_id']})\nclass UpdateTaskOrderView(View):",
+        "detail": "TeamRunProject.TeamRunApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateTaskOrderView",
+        "kind": 6,
+        "importPath": "TeamRunProject.TeamRunApp.views",
+        "description": "TeamRunProject.TeamRunApp.views",
+        "peekOfCode": "class UpdateTaskOrderView(View):\n    def post(self, request, project_id):\n        task_id = request.POST.get('task_id')\n        new_list_id = request.POST.get('list_id')\n        old_list_id = request.POST.get('old_list_id')\n        task = Task.objects.get(id=task_id)\n        new_list = List.objects.get(id=new_list_id)\n        old_list = List.objects.get(id=old_list_id)\n        # Удалить таску из старого списка\n        old_list.tasks.remove(task)",
+        "detail": "TeamRunProject.TeamRunApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectTeamView",
+        "kind": 6,
+        "importPath": "TeamRunProject.TeamRunApp.views",
+        "description": "TeamRunProject.TeamRunApp.views",
+        "peekOfCode": "class ProjectTeamView(LoginRequiredMixin, ListView):\n    model = ProjectMembership\n    template_name = 'project_team.html'\n    context_object_name = 'memberships'\n    def get_queryset(self):\n        project_id = self.kwargs['project_id']\n        self.project = get_object_or_404(Project, id=project_id)\n        if not self.project.is_member(self.request.user):\n            raise PermissionDenied(\"У вас нет доступа к этому проекту\")\n        return ProjectMembership.objects.filter(project=self.project).select_related('user')",
+        "detail": "TeamRunProject.TeamRunApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "RemoveProjectMemberView",
+        "kind": 6,
+        "importPath": "TeamRunProject.TeamRunApp.views",
+        "description": "TeamRunProject.TeamRunApp.views",
+        "peekOfCode": "class RemoveProjectMemberView(LoginRequiredMixin, DeleteView):\n    model = ProjectMembership\n    template_name = 'project_team.html'\n    def dispatch(self, request, *args, **kwargs):\n        self.membership = self.get_object()\n        self.project = self.membership.project\n        if not self.project.is_owner_or_manager(request.user):\n            raise PermissionDenied(\"Недостаточно прав для удаления участников\")\n        if self.membership.user == self.project.owner or self.membership.role == 'manager':\n            raise PermissionDenied(\"Нельзя удалить владельца или менеджера проекта\")",
+        "detail": "TeamRunProject.TeamRunApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "TaskAssignmentView",
+        "kind": 6,
+        "importPath": "TeamRunProject.TeamRunApp.views",
+        "description": "TeamRunProject.TeamRunApp.views",
+        "peekOfCode": "class TaskAssignmentView(LoginRequiredMixin, DetailView):\n    model = Task\n    template_name = 'assign_task.html'\n    context_object_name = 'task'\n    def get_context_data(self, **kwargs):\n        context = super().get_context_data(**kwargs)\n        task = self.object\n        context['project'] = task.list.project\n        context['users_assigned'] = task.assigned_to.all()\n        context['members'] = task.list.project.get_members()",
+        "detail": "TeamRunProject.TeamRunApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "ProcessAssignmentView",
+        "kind": 6,
+        "importPath": "TeamRunProject.TeamRunApp.views",
+        "description": "TeamRunProject.TeamRunApp.views",
+        "peekOfCode": "class ProcessAssignmentView(LoginRequiredMixin, View):\n    def post(self, request, *args, **kwargs):\n        task_id = kwargs.get('pk')\n        task = get_object_or_404(Task, pk=task_id)\n        project = task.list.project\n        if not project.is_member(request.user):\n            messages.error(request, \"Нет прав для назначения задач\")\n            return redirect('project_detail', pk=project.id)\n        user_id = request.POST.get('user_id')\n        if user_id:",
+        "detail": "TeamRunProject.TeamRunApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectCreateView",
+        "kind": 6,
+        "importPath": "TeamRunProject.TeamRunApp.views",
+        "description": "TeamRunProject.TeamRunApp.views",
+        "peekOfCode": "class ProjectCreateView(LoginRequiredMixin, CreateView):\n    model = Project\n    form_class = CreateProjectForm\n    template_name = 'create_project.html'\n    def form_valid(self, form):\n        form.instance.owner = self.request.user\n        response = super().form_valid(form)\n        ProjectMembership.objects.create(\n            project=self.object,\n            user=self.request.user,",
+        "detail": "TeamRunProject.TeamRunApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "InviteMemberView",
+        "kind": 6,
+        "importPath": "TeamRunProject.TeamRunApp.views",
+        "description": "TeamRunProject.TeamRunApp.views",
+        "peekOfCode": "class InviteMemberView(LoginRequiredMixin, TemplateView):\n    template_name = 'add_member.html'\n    def dispatch(self, request, *args, **kwargs):\n        self.project = get_object_or_404(Project, id=kwargs['project_id'])\n        if not self.has_permission():\n            messages.error(request, \"Недостаточно прав для приглашения\")\n            return redirect('project_detail', pk=self.project.id)\n        return super().dispatch(request, *args, **kwargs)\n    def has_permission(self):\n        # Проверяем, является ли пользователь владельцем или менеджером проекта",
+        "detail": "TeamRunProject.TeamRunApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "InvitationsListView",
+        "kind": 6,
+        "importPath": "TeamRunProject.TeamRunApp.views",
+        "description": "TeamRunProject.TeamRunApp.views",
+        "peekOfCode": "class InvitationsListView(LoginRequiredMixin, ListView):\n    template_name = 'invite_to_project.html'\n    context_object_name = 'invitations'\n    def get_queryset(self):\n        # Получаем только pending-приглашения текущего пользователя\n        return self.request.user.project_invitations.filter(status='pending').select_related('project', 'inviter')\n    def post(self, request, *args, **kwargs):\n        invitation_id = request.POST.get('invitation_id')\n        action = request.POST.get('action')\n        try:",
+        "detail": "TeamRunProject.TeamRunApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "TeamRunProject.TeamRunApp.views",
+        "description": "TeamRunProject.TeamRunApp.views",
+        "peekOfCode": "def index(request):\n    return render(request, \"index.html\")\ndef login_view(request):\n    if request.method == 'POST':\n        form = LoginForm(request, data=request.POST)\n        if form.is_valid():\n            user = form.get_user()\n            login(request, user)\n            return redirect('menu')\n    else:",
+        "detail": "TeamRunProject.TeamRunApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "login_view",
+        "kind": 2,
+        "importPath": "TeamRunProject.TeamRunApp.views",
+        "description": "TeamRunProject.TeamRunApp.views",
+        "peekOfCode": "def login_view(request):\n    if request.method == 'POST':\n        form = LoginForm(request, data=request.POST)\n        if form.is_valid():\n            user = form.get_user()\n            login(request, user)\n            return redirect('menu')\n    else:\n        form = LoginForm()\n    return render(request, 'login.html', {'form': form})",
+        "detail": "TeamRunProject.TeamRunApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "register_view",
+        "kind": 2,
+        "importPath": "TeamRunProject.TeamRunApp.views",
+        "description": "TeamRunProject.TeamRunApp.views",
+        "peekOfCode": "def register_view(request):\n    if request.method == 'POST':\n        form = RegisterForm(request.POST)\n        if form.is_valid():\n            user = form.save()\n            login(request, user)\n            return redirect('menu')\n    else:\n        form = RegisterForm()\n    return render(request, 'register.html', {'form': form})",
+        "detail": "TeamRunProject.TeamRunApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "get_list_form",
+        "kind": 2,
+        "importPath": "TeamRunProject.TeamRunApp.views",
+        "description": "TeamRunProject.TeamRunApp.views",
+        "peekOfCode": "def get_list_form(request, project_id):\n    \"\"\"Возвращает форму для создания списка\"\"\"\n    return render(request, 'list_form.html')\ndef menu(request):\n    return render(request, 'menu.html')\nclass CreateProjectView(TemplateView):\n    template_name = \"create_project.html\"\nclass InvitationsView(TemplateView):\n    template_name = \"invite_to_project.html\"\nclass MyProjectsView(ListView, LoginRequiredMixin):",
+        "detail": "TeamRunProject.TeamRunApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "menu",
+        "kind": 2,
+        "importPath": "TeamRunProject.TeamRunApp.views",
+        "description": "TeamRunProject.TeamRunApp.views",
+        "peekOfCode": "def menu(request):\n    return render(request, 'menu.html')\nclass CreateProjectView(TemplateView):\n    template_name = \"create_project.html\"\nclass InvitationsView(TemplateView):\n    template_name = \"invite_to_project.html\"\nclass MyProjectsView(ListView, LoginRequiredMixin):\n    model = Project\n    template_name = 'my_projects.html'\n    context_object_name = 'project'",
+        "detail": "TeamRunProject.TeamRunApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "profile_view",
+        "kind": 2,
+        "importPath": "TeamRunProject.TeamRunApp.views",
+        "description": "TeamRunProject.TeamRunApp.views",
+        "peekOfCode": "def profile_view(request):\n    user = request.user\n    if request.method == 'POST':\n        form = ProfileUpdateForm(request.POST, request.FILES, instance=user)\n        if form.is_valid():\n            form.save()\n            return redirect('profile')\n    else:\n        form = ProfileUpdateForm(instance=user)\n    return render(request, 'profile.html', {",
+        "detail": "TeamRunProject.TeamRunApp.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "TeamRunProject.TeamRunProject.asgi",
+        "description": "TeamRunProject.TeamRunProject.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "TeamRunProject.TeamRunProject.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "TeamRunProject.TeamRunProject.settings",
+        "description": "TeamRunProject.TeamRunProject.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-f#m3+yn$isciey%04tr@eol4ji32de0(b^f-n&4wp6j!7^=+&#'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nINTERNAL_IPS = [\n    \"127.0.0.1\",\n]",
+        "detail": "TeamRunProject.TeamRunProject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "TeamRunProject.TeamRunProject.settings",
+        "description": "TeamRunProject.TeamRunProject.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-f#m3+yn$isciey%04tr@eol4ji32de0(b^f-n&4wp6j!7^=+&#'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nINTERNAL_IPS = [\n    \"127.0.0.1\",\n]\nALLOWED_HOSTS = ['*']\nCSRF_TRUSTED_ORIGINS = ['https://*']\nTAILWIND_APP_NAME = 'theme'\n# Application definition",
+        "detail": "TeamRunProject.TeamRunProject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "TeamRunProject.TeamRunProject.settings",
+        "description": "TeamRunProject.TeamRunProject.settings",
+        "peekOfCode": "DEBUG = True\nINTERNAL_IPS = [\n    \"127.0.0.1\",\n]\nALLOWED_HOSTS = ['*']\nCSRF_TRUSTED_ORIGINS = ['https://*']\nTAILWIND_APP_NAME = 'theme'\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',",
+        "detail": "TeamRunProject.TeamRunProject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INTERNAL_IPS",
+        "kind": 5,
+        "importPath": "TeamRunProject.TeamRunProject.settings",
+        "description": "TeamRunProject.TeamRunProject.settings",
+        "peekOfCode": "INTERNAL_IPS = [\n    \"127.0.0.1\",\n]\nALLOWED_HOSTS = ['*']\nCSRF_TRUSTED_ORIGINS = ['https://*']\nTAILWIND_APP_NAME = 'theme'\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',",
+        "detail": "TeamRunProject.TeamRunProject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "TeamRunProject.TeamRunProject.settings",
+        "description": "TeamRunProject.TeamRunProject.settings",
+        "peekOfCode": "ALLOWED_HOSTS = ['*']\nCSRF_TRUSTED_ORIGINS = ['https://*']\nTAILWIND_APP_NAME = 'theme'\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',",
+        "detail": "TeamRunProject.TeamRunProject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CSRF_TRUSTED_ORIGINS",
+        "kind": 5,
+        "importPath": "TeamRunProject.TeamRunProject.settings",
+        "description": "TeamRunProject.TeamRunProject.settings",
+        "peekOfCode": "CSRF_TRUSTED_ORIGINS = ['https://*']\nTAILWIND_APP_NAME = 'theme'\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "TeamRunProject.TeamRunProject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TAILWIND_APP_NAME",
+        "kind": 5,
+        "importPath": "TeamRunProject.TeamRunProject.settings",
+        "description": "TeamRunProject.TeamRunProject.settings",
+        "peekOfCode": "TAILWIND_APP_NAME = 'theme'\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'TeamRunApp.apps.TeamrunappConfig',",
+        "detail": "TeamRunProject.TeamRunProject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "TeamRunProject.TeamRunProject.settings",
+        "description": "TeamRunProject.TeamRunProject.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'TeamRunApp.apps.TeamrunappConfig',\n    'tailwind',\n    'theme',",
+        "detail": "TeamRunProject.TeamRunProject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "TeamRunProject.TeamRunProject.settings",
+        "description": "TeamRunProject.TeamRunProject.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n    'debug_toolbar.middleware.DebugToolbarMiddleware',\n]",
+        "detail": "TeamRunProject.TeamRunProject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "TeamRunProject.TeamRunProject.settings",
+        "description": "TeamRunProject.TeamRunProject.settings",
+        "peekOfCode": "ROOT_URLCONF = 'TeamRunProject.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [os.path.join(BASE_DIR, 'theme/templates')],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "TeamRunProject.TeamRunProject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "TeamRunProject.TeamRunProject.settings",
+        "description": "TeamRunProject.TeamRunProject.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [os.path.join(BASE_DIR, 'theme/templates')],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "TeamRunProject.TeamRunProject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "TeamRunProject.TeamRunProject.settings",
+        "description": "TeamRunProject.TeamRunProject.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'TeamRunProject.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.0/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "detail": "TeamRunProject.TeamRunProject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "TeamRunProject.TeamRunProject.settings",
+        "description": "TeamRunProject.TeamRunProject.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "TeamRunProject.TeamRunProject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "TeamRunProject.TeamRunProject.settings",
+        "description": "TeamRunProject.TeamRunProject.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "TeamRunProject.TeamRunProject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "TeamRunProject.TeamRunProject.settings",
+        "description": "TeamRunProject.TeamRunProject.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'theme/staticfiles/')\nMEDIA_URL = 'media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'theme/media/')",
+        "detail": "TeamRunProject.TeamRunProject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "TeamRunProject.TeamRunProject.settings",
+        "description": "TeamRunProject.TeamRunProject.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'theme/staticfiles/')\nMEDIA_URL = 'media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'theme/media/')\nSTATICFILES_DIRS = [",
+        "detail": "TeamRunProject.TeamRunProject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "TeamRunProject.TeamRunProject.settings",
+        "description": "TeamRunProject.TeamRunProject.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'theme/staticfiles/')\nMEDIA_URL = 'media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'theme/media/')\nSTATICFILES_DIRS = [\n    BASE_DIR / \"theme/static/js\",",
+        "detail": "TeamRunProject.TeamRunProject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "TeamRunProject.TeamRunProject.settings",
+        "description": "TeamRunProject.TeamRunProject.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'theme/staticfiles/')\nMEDIA_URL = 'media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'theme/media/')\nSTATICFILES_DIRS = [\n    BASE_DIR / \"theme/static/js\",\n    BASE_DIR / \"theme/static/css\"",
+        "detail": "TeamRunProject.TeamRunProject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "TeamRunProject.TeamRunProject.settings",
+        "description": "TeamRunProject.TeamRunProject.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'theme/staticfiles/')\nMEDIA_URL = 'media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'theme/media/')\nSTATICFILES_DIRS = [\n    BASE_DIR / \"theme/static/js\",\n    BASE_DIR / \"theme/static/css\"\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field",
+        "detail": "TeamRunProject.TeamRunProject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_ROOT",
+        "kind": 5,
+        "importPath": "TeamRunProject.TeamRunProject.settings",
+        "description": "TeamRunProject.TeamRunProject.settings",
+        "peekOfCode": "STATIC_ROOT = os.path.join(BASE_DIR, 'theme/staticfiles/')\nMEDIA_URL = 'media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'theme/media/')\nSTATICFILES_DIRS = [\n    BASE_DIR / \"theme/static/js\",\n    BASE_DIR / \"theme/static/css\"\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "TeamRunProject.TeamRunProject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_URL",
+        "kind": 5,
+        "importPath": "TeamRunProject.TeamRunProject.settings",
+        "description": "TeamRunProject.TeamRunProject.settings",
+        "peekOfCode": "MEDIA_URL = 'media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'theme/media/')\nSTATICFILES_DIRS = [\n    BASE_DIR / \"theme/static/js\",\n    BASE_DIR / \"theme/static/css\"\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nNPM_BIN_PATH = 'npm.cmd'",
+        "detail": "TeamRunProject.TeamRunProject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_ROOT",
+        "kind": 5,
+        "importPath": "TeamRunProject.TeamRunProject.settings",
+        "description": "TeamRunProject.TeamRunProject.settings",
+        "peekOfCode": "MEDIA_ROOT = os.path.join(BASE_DIR, 'theme/media/')\nSTATICFILES_DIRS = [\n    BASE_DIR / \"theme/static/js\",\n    BASE_DIR / \"theme/static/css\"\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nNPM_BIN_PATH = 'npm.cmd'\nAUTH_USER_MODEL = 'TeamRunApp.CustomUser'",
+        "detail": "TeamRunProject.TeamRunProject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_DIRS",
+        "kind": 5,
+        "importPath": "TeamRunProject.TeamRunProject.settings",
+        "description": "TeamRunProject.TeamRunProject.settings",
+        "peekOfCode": "STATICFILES_DIRS = [\n    BASE_DIR / \"theme/static/js\",\n    BASE_DIR / \"theme/static/css\"\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nNPM_BIN_PATH = 'npm.cmd'\nAUTH_USER_MODEL = 'TeamRunApp.CustomUser'",
+        "detail": "TeamRunProject.TeamRunProject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "TeamRunProject.TeamRunProject.settings",
+        "description": "TeamRunProject.TeamRunProject.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nNPM_BIN_PATH = 'npm.cmd'\nAUTH_USER_MODEL = 'TeamRunApp.CustomUser'",
+        "detail": "TeamRunProject.TeamRunProject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "NPM_BIN_PATH",
+        "kind": 5,
+        "importPath": "TeamRunProject.TeamRunProject.settings",
+        "description": "TeamRunProject.TeamRunProject.settings",
+        "peekOfCode": "NPM_BIN_PATH = 'npm.cmd'\nAUTH_USER_MODEL = 'TeamRunApp.CustomUser'",
+        "detail": "TeamRunProject.TeamRunProject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_USER_MODEL",
+        "kind": 5,
+        "importPath": "TeamRunProject.TeamRunProject.settings",
+        "description": "TeamRunProject.TeamRunProject.settings",
+        "peekOfCode": "AUTH_USER_MODEL = 'TeamRunApp.CustomUser'",
+        "detail": "TeamRunProject.TeamRunProject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "TeamRunProject.TeamRunProject.urls",
+        "description": "TeamRunProject.TeamRunProject.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('', include('TeamRunApp.urls')),\n    path(\"__reload__/\", include(\"django_browser_reload.urls\")),\n    path('__debug__/', include('debug_toolbar.urls')),\n] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
+        "detail": "TeamRunProject.TeamRunProject.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "TeamRunProject.TeamRunProject.wsgi",
+        "description": "TeamRunProject.TeamRunProject.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "TeamRunProject.TeamRunProject.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "ThemeConfig",
+        "kind": 6,
+        "importPath": "TeamRunProject.theme.apps",
+        "description": "TeamRunProject.theme.apps",
+        "peekOfCode": "class ThemeConfig(AppConfig):\n    name = 'theme'",
+        "detail": "TeamRunProject.theme.apps",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "TeamRunProject.manage",
+        "description": "TeamRunProject.manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'TeamRunProject.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "TeamRunProject.manage",
+        "documentation": {}
+    }
+]

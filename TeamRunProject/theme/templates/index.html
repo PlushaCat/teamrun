@@ -1,0 +1,79 @@
+{% load static tailwind_tags %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    {% tailwind_css %}
+    <title>Доска задач</title>
+</head>
+<body class="h-screen w-screen m-0 p-0 overflow-hidden flex flex-col bg-linear-to-bl from-green-100 to-gray-400">
+    <nav class="bg-white shadow w-full">
+        <div class="max-w px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <!-- Левая часть: Кнопки -->
+                <div class="flex space-x-4">
+                    <a href="{% url 'my-projects' %}" class="text-gray-700 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium">Мои проекты</a>
+                    <a href="{% url 'menu' %}" class="text-gray-700 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium">Главное меню</a>
+                    <a href="{% url 'project_team' project.id %}" class="text-gray-700 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium">Команда проекта</a>
+                </div>
+                <!-- Правая часть: Аватарка -->
+                <div class="flex items-center">
+                    <a href="{% url 'profile' %}" class="text-gray-700 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium">Профиль</a>
+                    {{ user.get_avatar_small|safe }}
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="p-4">
+        <h1 class="text-2xl font-bold mb-4">{{ project.name }}</h1>
+        <a href="{% url 'add_task_list' project.id %}"
+        class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 mb-8">
+        + Добавить список
+        </a>
+
+        <div class="flex space-x-4 mt-8" id="lists-container">
+          {% for List in project.lists.all %}
+          <div id="colorBox" class="flex-1 p-4 rounded-lg shadow bg-white column max-w-xs" data-list-id="{{ List.id }}">
+              <h2 class="font-semibold mb-2 text-center list_title">{{ List.name }}</h2>
+                  {% for task in List.tasks.all %}
+                  <div class="space-y-2 mt-2 task" draggable="true" data-task-id="{{ task.id }}">
+                      <div class="bg-blue-100 p-2 rounded-lg max-w-xs">
+                          <div class="text-sm break-words">{{ task.title }}</div>
+                          <div class="flex justify-between items-center mt-2 gap-1">
+                              <div class="text-xs text-gray-500">{{ task.due_date }}</div>
+                              <a href="{% url 'task_assign' task.id %}" class="text-xs text-blue-500">Назначить</a>
+                              {% for assign_user in task.get_assigned_users %}
+                               {{ assign_user.get_avatar_small|safe }}
+                              {% endfor %}
+                          </div>
+                      </div>
+                  </div>
+                  {% endfor %}
+
+                          
+              
+              <a href="{% url 'add_task' project_id=project.id list_id=List.id %}"
+                      class="text-blue-500 hover:text-blue-700 text-sm">
+                  + Добавить задачу
+              </a>
+          </div>
+          {% endfor %}
+        </div>
+  </div>
+
+  <div id="modals-container">
+
+  </div>
+
+
+    <script>
+        const project_id = "{{ project.pk }}"
+    </script>
+    <script src="{% static 'script.js' %}?t=12"></script>
+</body>
+</html>

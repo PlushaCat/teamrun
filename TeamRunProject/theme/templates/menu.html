@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<nav class="bg-white shadow w-full">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between h-16 items-center">
+            <!-- Левая часть: Логотип или название -->
+            <div class="flex items-center">
+                <span class="text-xl font-semibold text-gray-800">TeamRun</span>
+            </div>
+            
+            <!-- Правая часть: Аватарка -->
+            <div class="flex items-center">
+                <a href="{% url 'profile' %}" class="text-gray-700 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium">Профиль</a>
+                {{ user.get_avatar_small|safe }}
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- Основной контент -->
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <h1 class="text-3xl font-bold text-gray-800 mb-8">Главное меню</h1>
+
+    <!-- Кнопки меню -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Кнопка "Мои проекты" -->
+        <a href="{% url 'my-projects' %}" class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+            <div class="text-xl font-semibold text-gray-800 mb-2">Мои проекты</div>
+            <p class="text-gray-600">Просмотр и управление вашими проектами.</p>
+        </a>
+
+        <!-- Кнопка "Создать проект" -->
+        <a href="{% url 'project_create' %}" class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+            <div class="text-xl font-semibold text-gray-800 mb-2">Создать проект</div>
+            <p class="text-gray-600">Создайте новый проект и начните работу.</p>
+        </a>
+
+        <!-- Кнопка "Приглашения в проекты" -->
+        <a href="{% url 'invitations_list' %}" class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+            <div class="text-xl font-semibold text-gray-800 mb-2">Приглашения в проекты</div>
+            <p class="text-gray-600">Просмотр и принятие приглашений в проекты.</p>
+        </a>
+    </div>
+</div>
+
+
+{% endblock %}

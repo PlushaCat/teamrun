@@ -1,0 +1,99 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<a href="{% url 'menu' %}" 
+   class="inline-flex items-center px-4 py-2 bg-white border border-gray-300 rounded-lg shadow-sm text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-all duration-200 transform hover:-translate-x-1">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+        <path fill-rule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clip-rule="evenodd" />
+    </svg>
+    Вернуться назад
+</a>
+<div class="max-w-2xl mx-auto bg-white rounded-xl shadow-md overflow-hidden p-8">
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        
+        <div class="flex flex-col items-center md:flex-row md:items-start">
+            <!-- Аватарка -->
+            <div class="mb-6 md:mb-0 md:mr-8 relative group">
+                {{ user.get_avatar|safe }}
+                
+                {% if is_editing %}
+                <div class="mt-4">
+                    <label class="block text-sm font-medium text-gray-700 mb-2">{{ form.avatar.label }}</label>
+                    {{ form.avatar }}
+                    {% if form.avatar.errors %}
+                        <div class="mt-1 text-sm text-red-600">{{ form.avatar.errors }}</div>
+                    {% endif %}
+                </div>
+                {% endif %}
+            </div>
+
+            <!-- Информация о пользователе -->
+            <div class="text-center md:text-left flex-1">
+                {% if is_editing %}
+                    <!-- Режим редактирования -->
+                    <div class="space-y-4">
+                        <div>
+                            <label for="{{ form.first_name.id_for_label }}" class="block text-sm font-medium text-gray-700">
+                                {{ form.first_name.label }}
+                            </label>
+                            {{ form.first_name }}
+                            {% if form.first_name.errors %}
+                                <div class="mt-1 text-sm text-red-600">{{ form.first_name.errors }}</div>
+                            {% endif %}
+                        </div>
+                        
+                        <div>
+                            <label for="{{ form.last_name.id_for_label }}" class="block text-sm font-medium text-gray-700">
+                                {{ form.last_name.label }}
+                            </label>
+                            {{ form.last_name }}
+                            {% if form.last_name.errors %}
+                                <div class="mt-1 text-sm text-red-600">{{ form.last_name.errors }}</div>
+                            {% endif %}
+                        </div>
+                        
+                        <div class="flex space-x-4 pt-4">
+                            <button type="submit" 
+                                    class="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700">
+                                Сохранить
+                            </button>
+                            <a href="?edit=false" 
+                               class="inline-flex items-center px-4 py-2 bg-gray-200 text-gray-800 rounded-md hover:bg-gray-300">
+                                Отмена
+                            </a>
+                        </div>
+                    </div>
+                {% else %}
+                    <!-- Режим просмотра -->
+                    <h1 class="text-2xl font-bold text-gray-800">{{ user.get_full_name }}</h1>
+                    <p class="text-gray-600 mb-2">@{{ user.username }}</p>
+                    
+                    <div class="mt-4 space-y-2">
+                        <p class="text-gray-700">
+                            <span class="font-semibold">Email:</span> {{ user.email }}
+                        </p>
+                        {% if user.nickname %}
+                        <p class="text-gray-700">
+                            <span class="font-semibold">Никнейм:</span> {{ user.nickname }}
+                        </p>
+                        {% endif %}
+                    </div>
+                    
+                    <div class="mt-6">
+                        <a href="?edit=true" 
+                           class="inline-flex items-center px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition duration-200">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M13.586 3.586a2 2 0 112.828 2.828l-.793.793-2.828-2.828.793-.793zM11.379 5.793L3 14.172V17h2.828l8.38-8.379-2.83-2.828z" />
+                            </svg>
+                            Редактировать профиль
+                        </a>
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+    </form>
+    <a href="{% url 'login' %}">Выйти из аккаунта</a>
+</div>
+{% endblock %}

@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="min-h-screen bg-gray-50 flex flex-col justify-center py-12 sm:px-6 lg:px-8">
+    <div class="sm:mx-auto sm:w-full sm:max-w-md">
+        <h2 class="mt-6 text-center text-3xl font-extrabold text-green-600">
+            Вход в систему
+        </h2>
+    </div>
+
+    <div class="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
+        <div class="bg-white py-8 px-4 shadow sm:rounded-lg sm:px-10 border-2 border-green-100">
+            <form method="post" class="space-y-6">
+                {% csrf_token %}
+                
+                {% if form.errors %}
+                <div class="bg-red-50 p-3 rounded-lg text-red-600 text-sm">
+                    Неверный логин или пароль
+                </div>
+                {% endif %}
+
+                <div>
+                    <label class="block text-sm font-medium text-green-700">
+                        Логин
+                    </label>
+                    {{ form.username }}
+                </div>
+
+                <div>
+                    <label class="block text-sm font-medium text-green-700">
+                        Пароль
+                    </label>
+                    {{ form.password }}
+                </div>
+
+                <button type="submit" 
+                    class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 transition-colors">
+                    Войти
+                </button>
+            </form>
+            <div class="mt-4 text-center">
+                <p class="text-sm text-gray-600">
+                    Нет аккаунта?
+                    <a href="{% url 'register' %}" class="font-medium text-green-600 hover:text-green-500">
+                        Зарегистрироваться
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,65 @@
+{% extends 'base.html' %}
+
+
+
+{% block content %}
+<a href="{% url 'project_detail' project.id %}" 
+   class="inline-flex items-center px-4 py-2 bg-white border border-gray-300 rounded-lg shadow-sm text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-all duration-200 transform hover:-translate-x-1">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+        <path fill-rule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clip-rule="evenodd" />
+    </svg>
+    Вернуться назад
+</a>
+
+
+<div class="max-w-2xl mx-auto p-6 bg-white rounded-xl shadow-md mt-10">
+    <h1 class="text-2xl font-bold text-gray-800 mb-2">
+        Отправить приглашение в проект
+    </h1>
+    <p class="text-gray-600 mb-6">"{{ project.name }}"</p>
+    {{ kapec }}
+    <form method="get" class="mb-8">
+        <div class="flex space-x-2">
+            <input type="text" name="username" placeholder="Поиск по никнейму..." 
+                   value="{{ search_query|default:'' }}"
+                   class="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none">
+            <button type="submit" class="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">
+                Найти
+            </button>
+        </div>
+    </form>
+
+    {% if users %}
+    <div class="space-y-3">
+        <h2 class="font-medium text-gray-700 mb-2">Найденные пользователи:</h2>
+        {% for user in users %}
+        <div class="flex items-center justify-between p-4 border border-gray-200 rounded-lg hover:bg-gray-50">
+            <div class="flex items-center space-x-3">
+                <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
+                    {{ user.username|first|upper }}
+                </div>
+                <div>
+                    <p class="font-medium">{{ user.username }}</p>
+                </div>
+            </div>
+            
+            <form method="post" class="flex items-center space-x-2">
+                {% csrf_token %}
+                <input type="hidden" name="user_id" value="{{ user.id }}">
+                <select name="role" class="px-2 py-1 border rounded text-sm">
+                    <option value="member">Участник</option>
+                    <option value="admin">Администратор</option>
+                </select>
+                <button type="submit" 
+                        class="px-3 py-1 bg-green-100 text-green-700 rounded-md hover:bg-green-200 transition text-sm">
+                    Пригласить
+                </button>
+            </form>
+        </div>
+        {% endfor %}
+    </div>
+    {% elif search_query %}
+    <p class="text-gray-500 italic">Пользователи не найдены</p>
+    {% endif %}
+</div>
+{% endblock %}

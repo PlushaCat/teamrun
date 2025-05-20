@@ -1,0 +1,16 @@
+<h2>Участники проекта</h2>
+<ul>
+{% for member in project.get_members %}
+    <li>{{ member }}</li>
+{% endfor %}
+</ul>
+
+<form method="post" action="{% url 'add_project_member' project.id %}">
+    {% csrf_token %}
+    <select name="user_id">
+        {% for user in all_users %}
+            <option value="{{ user.id }}">{{ user }}</option>
+        {% endfor %}
+    </select>
+    <button type="submit">Добавить участника</button>
+</form>

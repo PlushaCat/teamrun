@@ -1,0 +1,66 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="max-w-4xl mx-auto px-4 py-8">
+    <!-- Заголовок и кнопка "Назад" -->
+    <div class="flex justify-between items-center mb-8">
+        <h1 class="text-3xl font-bold text-gray-800">Команда проекта: <span class="text-blue-600">{{ project.name }}</span></h1>
+        <a href="{% url 'project_detail' project.id %}" class="px-4 py-2 bg-gray-200 hover:bg-gray-300 rounded-lg transition">← Назад</a>
+    </div>
+    
+    <!-- Карточки участников -->
+    <div class="bg-white rounded-lg shadow-md p-6 mb-6">
+        <h2 class="text-xl font-semibold mb-4 text-gray-700">Участники проекта</h2>
+        
+        <ul class="space-y-3">
+            {% for membership in memberships %}
+                <li class="flex justify-between items-center p-3 hover:bg-gray-50 rounded-lg">
+                    <div class="flex items-center space-x-3">
+                        <!-- Аватар (можно заменить на реальный) -->
+                        <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
+                            <span class="text-blue-600 font-medium">{{ membership.user.username|first|upper }}</span>
+                        </div>
+                        <div>
+                            <p class="font-medium text-gray-800">{{ membership.user.username }}</p>
+                            <span class="text-sm text-gray-500">{{ membership.get_role_display }}</span>
+                        </div>
+                    </div>
+                    
+                    {% if is_owner_or_manager %}
+                        <form 
+                            action="{% url 'remove_project_member' project.id membership.id %}" 
+                            method="post"
+                            style="display: inline;"  # чтобы форма не переносилась на новую строку
+                            >
+                            {% csrf_token %}
+                            <button 
+                                type="submit"
+                                class="px-3 py-1 bg-red-100 hover:bg-red-200 text-red-600 rounded-md text-sm transition"
+                                >
+                                Удалить
+                            </button>
+                        </form>
+                    {% endif %}
+                </li>
+            {% empty %}
+                <p class="text-gray-500 italic">В проекте пока нет участников</p>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <!-- Кнопка "Добавить участника" (только для админов/владельцев) -->
+    {% if is_owner_or_manager %}
+        <div class="flex justify-end">
+            <a 
+                href="{% url 'send_invitation' project.id %}" 
+                class="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition flex items-center space-x-2"
+            >
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd" />
+                </svg>
+                <span>Добавить участника</span>
+            </a>
+        </div>
+    {% endif %}
+</div>
+{% endblock %}
