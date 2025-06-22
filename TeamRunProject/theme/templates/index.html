@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     {% tailwind_css %}
+    {% load custom_filters %}
     <title>Доска задач</title>
 </head>
 <body class="h-screen w-screen m-0 p-0 overflow-hidden flex flex-col bg-linear-to-bl from-green-100 to-gray-400">
@@ -45,7 +46,7 @@
                       <div class="bg-blue-100 p-2 rounded-lg max-w-xs">
                           <div class="text-sm break-words">{{ task.title }}</div>
                           <div class="flex justify-between items-center mt-2 gap-1">
-                              <div class="text-xs text-gray-500">{{ task.due_date }}</div>
+                              <div  {% if task.due_date|is_older_than_yesterday %}class="text-xs text-red-500"{% else %}class="text-xs text-gray-500"{% endif %}>{{ task.due_date }}</div>
                               <a href="{% url 'task_assign' task.id %}" class="text-xs text-blue-500">Назначить</a>
                               {% for assign_user in task.get_assigned_users %}
                                {{ assign_user.get_avatar_small|safe }}

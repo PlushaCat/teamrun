@@ -124,6 +124,11 @@ class ProfileUpdateForm(forms.ModelForm):
     class Meta:
         model = CustomUser
         fields = ['first_name', 'last_name', 'avatar']
+        labels = {
+            'first_name': 'Имя',
+            'last_name': 'Фамилия',
+            'avatar': 'Аватарка',
+        }
         
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
@@ -136,10 +141,6 @@ class ProfileUpdateForm(forms.ModelForm):
         self.fields['avatar'].widget.attrs.update({
             'class': 'block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100'
         })
-    labels = {
-            'first_name': 'Имя',
-            'last_name': 'Фамилия',
-            'avatar': 'Аватарка',
-        }
+
 
         

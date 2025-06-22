@@ -310,6 +310,38 @@
         "documentation": {}
     },
     {
+        "label": "template",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
         "label": "admin",
         "importPath": "django.contrib",
         "description": "django.contrib",
@@ -350,14 +382,6 @@
         "documentation": {}
     },
     {
-        "label": "forms",
-        "importPath": "django",
-        "description": "django",
-        "isExtraImport": true,
-        "detail": "django",
-        "documentation": {}
-    },
-    {
         "label": "AuthenticationForm",
         "importPath": "django.contrib.auth.forms",
         "description": "django.contrib.auth.forms",
@@ -371,6 +395,14 @@
         "description": "django.contrib.auth.forms",
         "isExtraImport": true,
         "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "reverse",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
         "documentation": {}
     },
     {
@@ -427,6 +459,14 @@
         "description": "django.test",
         "isExtraImport": true,
         "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "SimpleUploadedFile",
+        "importPath": "django.core.files.uploadedfile",
+        "description": "django.core.files.uploadedfile",
+        "isExtraImport": true,
+        "detail": "django.core.files.uploadedfile",
         "documentation": {}
     },
     {
@@ -730,6 +770,24 @@
         "documentation": {}
     },
     {
+        "label": "is_older_than_yesterday",
+        "kind": 2,
+        "importPath": "TeamRunProject.TeamRunApp.templatetags.custom_filters",
+        "description": "TeamRunProject.TeamRunApp.templatetags.custom_filters",
+        "peekOfCode": "def is_older_than_yesterday(value):\n    yesterday = datetime.now().date() - timedelta(days=1)\n    return value.date() < yesterday",
+        "detail": "TeamRunProject.TeamRunApp.templatetags.custom_filters",
+        "documentation": {}
+    },
+    {
+        "label": "register",
+        "kind": 5,
+        "importPath": "TeamRunProject.TeamRunApp.templatetags.custom_filters",
+        "description": "TeamRunProject.TeamRunApp.templatetags.custom_filters",
+        "peekOfCode": "register = template.Library()\n@register.filter\ndef is_older_than_yesterday(value):\n    yesterday = datetime.now().date() - timedelta(days=1)\n    return value.date() < yesterday",
+        "detail": "TeamRunProject.TeamRunApp.templatetags.custom_filters",
+        "documentation": {}
+    },
+    {
         "label": "TeamrunappConfig",
         "kind": 6,
         "importPath": "TeamRunProject.TeamRunApp.apps",
@@ -797,7 +855,7 @@
         "kind": 6,
         "importPath": "TeamRunProject.TeamRunApp.forms",
         "description": "TeamRunProject.TeamRunApp.forms",
-        "peekOfCode": "class ProfileUpdateForm(forms.ModelForm):\n    class Meta:\n        model = CustomUser\n        fields = ['first_name', 'last_name', 'avatar']\n    def __init__(self, *args, **kwargs):\n        super().__init__(*args, **kwargs)\n        self.fields['first_name'].widget.attrs.update({\n            'class': 'mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500'\n        })\n        self.fields['last_name'].widget.attrs.update({",
+        "peekOfCode": "class ProfileUpdateForm(forms.ModelForm):\n    class Meta:\n        model = CustomUser\n        fields = ['first_name', 'last_name', 'avatar']\n        labels = {\n            'first_name': 'Имя',\n            'last_name': 'Фамилия',\n            'avatar': 'Аватарка',\n        }\n    def __init__(self, *args, **kwargs):",
         "detail": "TeamRunProject.TeamRunApp.forms",
         "documentation": {}
     },
@@ -862,6 +920,33 @@
         "description": "TeamRunProject.TeamRunApp.models",
         "peekOfCode": "def user_avatar_path(instance, filename):\n    # Файл будет загружен в MEDIA_ROOT/user_<id>/avatar/<filename>\n    return f'user_{instance.id}/avatar/{filename}'\nclass CustomUser(AbstractUser):\n    role = models.CharField(max_length=20, choices=[('manager', 'Manager'), ('developer', 'Developer')])\n    avatar = models.ImageField(upload_to=user_avatar_path, blank=True, null=True)\n    def get_avatar(self):\n        if self.avatar and hasattr(self.avatar, 'url'):\n            return format_html('<img src=\"{}\" alt=\"User avatar\" class=\"h-32 w-32 rounded-full object-cover border-4 border-blue-100\">', self.avatar.url)\n        else:",
         "detail": "TeamRunProject.TeamRunApp.models",
+        "documentation": {}
+    },
+    {
+        "label": "CustomUserModelTest",
+        "kind": 6,
+        "importPath": "TeamRunProject.TeamRunApp.tests",
+        "description": "TeamRunProject.TeamRunApp.tests",
+        "peekOfCode": "class CustomUserModelTest(TestCase):\n    def setUp(self):\n        self.user = CustomUser.objects.create_user(\n            username='testuser',\n            password='testpass123',\n            role='developer'\n        )\n    def test_user_creation(self):\n        self.assertEqual(self.user.role, 'developer')\n        self.assertEqual(str(self.user), 'testuser (developer)')",
+        "detail": "TeamRunProject.TeamRunApp.tests",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectModelTest",
+        "kind": 6,
+        "importPath": "TeamRunProject.TeamRunApp.tests",
+        "description": "TeamRunProject.TeamRunApp.tests",
+        "peekOfCode": "class ProjectModelTest(TestCase):\n    def setUp(self):\n        self.owner = CustomUser.objects.create_user(username='owner', role='manager')\n        self.member = CustomUser.objects.create_user(username='member', role='developer')\n        self.project = Project.objects.create(\n            name='Test Project',\n            description='Test Description',\n            owner=self.owner\n        )\n    def test_add_member(self):",
+        "detail": "TeamRunProject.TeamRunApp.tests",
+        "documentation": {}
+    },
+    {
+        "label": "TaskModelTest",
+        "kind": 6,
+        "importPath": "TeamRunProject.TeamRunApp.tests",
+        "description": "TeamRunProject.TeamRunApp.tests",
+        "peekOfCode": "class TaskModelTest(TestCase):\n    def setUp(self):\n        self.user = CustomUser.objects.create_user(username='taskuser', role='developer')\n        self.project = Project.objects.create(name='Task Project', owner=self.user)\n        self.task_list = List.objects.create(name='To Do', project=self.project)\n        self.task = Task.objects.create(\n            title='Test Task',\n            description='Test Description',\n            list=self.task_list\n        )",
+        "detail": "TeamRunProject.TeamRunApp.tests",
         "documentation": {}
     },
     {
